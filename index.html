@@ -48,12 +48,18 @@
         <title></title>
     </head>
    <body>
+    <!-- Map container -->
+    <div id="map">
+        <div id="popup" class="ol-popup">
+            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+            <div id="popup-content"></div>
+        </div>
+    </div>
     <body>
-      <body>
-        
+           
   
   <!-- Fixed logo at bottom left -->
-  <div class="logo-bottom-left" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
+  <div class="header" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
     <img src="images/123.jpg" alt="Logo" style="max-width: 100px; height: auto;">
   </div>
   
@@ -70,6 +76,15 @@
     <div class="logo-bottom-left" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
         <img src="images/123.jpg" alt="Logo" style="max-width: 100px; height: auto;">
     </div>
+  
+    
+
+<body>
+     <!-- Fixed logo at bottom left -->
+    <div class="logo-bottom-left" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
+    <img src="images/123.jpg" alt="Logo" style="max-width: 100px; height: auto;">
+</div>
+    </div>
     
     <!-- Map container -->
     <div id="map">
@@ -77,29 +92,23 @@
             <a href="#" id="popup-closer" class="ol-popup-closer"></a>
             <div id="popup-content"></div>
         </div>
-    </div>
-  
-  <!-- Your scripts here -->
-</body>
-<body>
-     <!-- Fixed logo at bottom left -->
-    <div class="logo-bottom-left" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;">
-    <img src="images/123.jpg" alt="Logo" style="max-width: 100px; height: auto;">
-</div>
-    </div>
+        <body>
+  <!-- Heading overlay -->
+  <div id="headingOverlay" style="...your styles...">Your Heading Text Here</div>
 
-    <!-- Map container -->
-    <div id="map">
-        <div id="popup" class="ol-popup">
-            <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-            <div id="popup-content"></div>
-        </div
-            <div id="headingOverlay" style="
+  <!-- Map container -->
+  <div id="map"> ... </div>
+  <!-- Fixed logo -->
+  <div class="logo-fixed"> ... </div>
+
+  <!-- Scripts -->
+</body>
+<div id="headingOverlay" style="
   position: fixed;
   top: 20px; /* Adjust as needed */
   left: 50%;
   transform: translateX(-50%);
-  background: #5bd0be80; /* semi-transparent background, optional */
+  background: rgba(255, 255, 255, 0.5); /* semi-transparent background, optional */
   padding: 10px 20px;
   border-radius: 8px;
   z-index: 1100; /* higher than map controls */
